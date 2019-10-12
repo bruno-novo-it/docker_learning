@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class ApiService {
 
-  private apiRoot = 'http://backend:8000/';
+  private apiRoot = 'http://localhost:8000/';
 
   constructor(private http: HttpClient) { }
 
