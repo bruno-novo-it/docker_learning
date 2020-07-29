@@ -5,6 +5,12 @@ This repository was created to increase and help the learning path of developing
 ## Docker Commands
 
 ```
+# Run Nginx Container
+docker run --name nginx -d -p 8080:80 nginx
+
+# Run Ubuntu Container
+docker run -it ubuntu bash
+
 # List running Containers
 docker ps
 
